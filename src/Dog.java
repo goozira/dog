@@ -12,34 +12,39 @@ public class Dog
 	private String name;
 	private int age;
 	
-	Dog(String name, int age)
+	public Dog(String name, int age)
 	{
 		this.setName(name);
 		this.setAge(age);
 	}
 	
-	String getName()
+	public String getName()
 	{
 		return name;
 	}
 	
-	void setName(String name)
+	private void setName(String name)
 	{
 		this.name = name;
 	}
 	
-	int getAge()
+	public int getAge()
 	{
 		return age;
 	}
 	
-	void setAge(int age)
+	private void setAge(int age)
 	{
 		this.age = age;
 	}
 	
-	int personYears()
+	public int personYears()
 	{
 		return age * 7;
+	}
+	
+	public String toString()
+	{
+		return "Boo!";
 	}
 }
