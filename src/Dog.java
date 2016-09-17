@@ -11,38 +11,38 @@ public class Dog
 {
 	private String name;
 	private int age;
-	
+
 	public Dog(String name, int age)
 	{
 		this.setName(name);
 		this.setAge(age);
 	}
-	
+
 	public String getName()
 	{
 		return name;
 	}
-	
+
 	private void setName(String name)
 	{
 		this.name = name;
 	}
-	
+
 	public int getAge()
 	{
 		return age;
 	}
-	
+
 	private void setAge(int age)
 	{
 		this.age = age;
 	}
-	
+
 	public int personYears()
 	{
 		return age * 7;
 	}
-	
+
 	public String toString()
 	{
 		return "Boo!";
